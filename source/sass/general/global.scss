@@ -66,6 +66,7 @@ select {
 button {
   border: none;
   outline: none;
+  background-color: transparent;
   cursor: pointer;
 }
 
@@ -90,14 +91,24 @@ a {
   clip-path: inset(100%);
 }
 
+.site-container {
+  overflow: hidden;
+}
+
 .container {
-  width: 1140px;
+  max-width: 1626px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
-.divider {
-  width: 60px;
-  height: 3px;
-  background-color: $main-color;
-  margin: 25px auto 0 auto;
+.logo {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 800;
+  text-align: center;
+  color: var(--white-color);
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
+
+

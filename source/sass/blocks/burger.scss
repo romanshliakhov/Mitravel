@@ -1,0 +1,20 @@
+.burger {
+  width: 48px;
+  height: 10px;
+  position: relative;
+
+  &__line {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--white-color);
+
+    &:last-child {
+      top: auto;
+      bottom: 0;
+    }
+  }
+}
