@@ -13,3 +13,9 @@
     padding: 55px 0;
   }
 }
+
+@media (max-height: 1079px) {
+  .header__container {
+    padding: 55px 30px;
+  }
+}
