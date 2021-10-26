@@ -32,6 +32,7 @@ img {
   height: 100%;
   border-style: none;
   object-fit: cover;
+  font-size: 0;
 }
 
 h1,
@@ -116,3 +117,14 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
+.title {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 700;
+  color: var(--dark-color);
+
+  &__center {
+    text-align: center;
+    max-width: none;
+  }
+}
