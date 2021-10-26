@@ -128,3 +128,14 @@ input[type="search"]::-webkit-search-results-decoration {
     max-width: none;
   }
 }
+
+.btn {
+  padding: 30px 80px;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
