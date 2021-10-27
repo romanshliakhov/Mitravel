@@ -21,6 +21,8 @@
     width: 35%;
     height: 100%;
     background-color: rgba(60, 74, 81, 0.9);
+    color: var(--white-color);
+    padding: 127px 133px;
   }
 
   &__article {
@@ -59,5 +61,57 @@
 
   &__article-link {
     background-color: var(--neptune-color);
+  }
+
+  &__stories-title {
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    max-width: 50%;
+    margin-bottom: 95px;
+  }
+
+  &__list-item {
+    margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:last-child .featured__list-article {
+      border-bottom: 1px solid transparent;
+      margin-bottom: 0;
+    }
+  }
+
+  &__list-article {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(227, 227, 227, 0.1);
+  }
+
+  &__list-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 32px;
+  }
+
+  &__list-title {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    max-width: 90%;
+  }
+
+  &__list-time {
+    display: block;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    font-family: "SFProText", sans-serif;
+    color: rgba(255, 255, 255, 0.502293);
   }
 }
