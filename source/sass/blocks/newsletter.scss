@@ -1,0 +1,68 @@
+.newsletter {
+  padding-top: 52px;
+  padding-bottom: 100px;
+
+  &__content {
+    position: relative;
+    background-image: url("../img/newsletter.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 338px 135px 0;
+  }
+
+  &__text {
+    color: var(--white-color);
+    max-width: 28%;
+    padding-bottom: 178px;
+  }
+
+  &__title {
+    color: var(--white-color);
+    margin-bottom: 40px;
+  }
+
+  &__descr {
+    font-family: "SFCompact", sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+  }
+
+  &__form {
+    margin-bottom: -96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 416px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: var(--white-color);
+    padding-top: 76px;
+  }
+
+  &__form-input {
+    width: 357px;
+    height: 38px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(28, 46, 61, 0.3);
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--dark-color);
+    text-transform: uppercase;
+  }
+
+  &__btn {
+    background-color: var(--neptune-color);
+    width: 100%;
+    height: 96px;
+    border-radius: 0px 0px 8px 8px;
+  }
+}
